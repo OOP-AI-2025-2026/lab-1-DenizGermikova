@@ -19,7 +19,7 @@ public class MainTest {
         main = new Main();
     }
 
-    // IcyHot
+    // IcyHot -
     @ParameterizedTest
     @MethodSource("icyHotProvider")
     public void icyHot(int first, int second, boolean expected) {
